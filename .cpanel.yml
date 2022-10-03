@@ -1,0 +1,5 @@
+--- 
+deployment:
+tasks:
+- export DEPLOYPATH=/home/kurangse/nobodyknows.my.id/
+- /usr/bin/rsync -Paz * $DEPLOYPATH --delete
